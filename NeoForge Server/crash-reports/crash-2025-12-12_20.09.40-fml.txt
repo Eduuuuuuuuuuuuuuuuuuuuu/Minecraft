@@ -1,0 +1,141 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 2025-12-12 20:09:40
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Stacktrace:
+	at MC-BOOTSTRAP/fml_loader@6.0.18/net.neoforged.fml.common.asm.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:60) ~[loader-6.0.18.jar%2371!/:6.0] {}
+-- Mod loading issue for: octolib --
+Details:
+	Mod file: /C:/Users/Eduardito/Desktop/NeoForge Server/mods/OctoLib-NEOFORGE-0.5.0.1+1.21.4.jar
+	Failure message: OctoLib (octolib) has failed to load correctly
+		java.lang.RuntimeException: Attempted to load class dev/architectury/event/events/client/ClientPlayerEvent for invalid dist DEDICATED_SERVER
+	Mod version: 0.5.0.1
+	Mod issues URL: https://github.com/SSKirillSS/octo-lib/issues
+	Exception message: java.lang.RuntimeException: Attempted to load class dev/architectury/event/events/client/ClientPlayerEvent for invalid dist DEDICATED_SERVER
+Stacktrace:
+	at MC-BOOTSTRAP/fml_loader@6.0.18/net.neoforged.fml.common.asm.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:60) ~[loader-6.0.18.jar%2371!/:6.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.4.jar%2376!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.4.jar%2376!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.4.jar%2376!/:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214) ~[securejarhandler-3.0.8.jar:?] {}
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?] {}
+	at TRANSFORMER/octolib@0.5.0.1/it.hurts.octostudios.octolib.OctoLib.registerEvents(OctoLib.java:28) ~[OctoLib-NEOFORGE-0.5.0.1+1.21.4.jar%23186!/:?] {re:classloading}
+	at TRANSFORMER/octolib@0.5.0.1/it.hurts.octostudios.octolib.OctoLib.init(OctoLib.java:20) ~[OctoLib-NEOFORGE-0.5.0.1+1.21.4.jar%23186!/:?] {re:classloading}
+	at TRANSFORMER/octolib@0.5.0.1/it.hurts.octostudios.octolib.neoforge.OctoLibNeoForge.<init>(OctoLibNeoForge.java:12) ~[OctoLib-NEOFORGE-0.5.0.1+1.21.4.jar%23186!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?] {}
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.18/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:115) ~[loader-6.0.18.jar%2371!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.18/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:153) ~[loader-6.0.18.jar%2371!/:6.0] {}
+	at MC-BOOTSTRAP/fml_loader@6.0.18/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-6.0.18.jar%2371!/:6.0] {}
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.4
+	Minecraft Version ID: 1.21.4
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 25.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 93588944 bytes (89 MiB) / 471859200 bytes (450 MiB) up to 4261412864 bytes (4064 MiB)
+	CPUs: 6
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 13
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 3.70
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 6
+	Graphics card #0 name: Intel(R) UHD Graphics 630
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 1024.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.101.2111
+	Graphics card #1 name: NVIDIA GeForce GTX 1050 Ti
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 4096.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.15.7688
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Virtual memory max (MiB): 22208.58
+	Virtual memory used (MiB): 19104.49
+	Swap memory total (MiB): 5952.94
+	Swap memory used (MiB): 426.66
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 6407.88, total: 113607.00
+	Space in storage for workdir (MiB): available: 6407.88, total: 113607.00
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: neoforgeserver
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-6.0.18.jar slf4jfixer PLUGINSERVICE 
+		loader-6.0.18.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-11.0.2.jar accesstransformer PLUGINSERVICE 
+		loader-6.0.18.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		kotlinforforge@5.10.0
+		javafml@6.0
+		lowcodefml@6.0
+		minecraft@6.0
+	Mod List: 
+		architectury-15.0.3-neoforge.jar                  |Architectury                  |architectury                  |15.0.3              |Manifest: NOSIGNATURE
+		cloth-config-17.0.144-neoforge.jar                |Cloth Config v17 API          |cloth_config                  |17.0.144            |Manifest: NOSIGNATURE
+		collective-1.21.4-8.3.jar                         |Collective                    |collective                    |8.3                 |Manifest: NOSIGNATURE
+		tombstone-neoforge-1.21.4-9.3.10.jar              |Corail Tombstone              |tombstone                     |9.3.10              |Manifest: NOSIGNATURE
+		coroutil-neoforge-1.21.4-1.3.8.jar                |CoroUtil                      |coroutil                      |1.21.4-1.3.8        |Manifest: NOSIGNATURE
+		CreativeCore_NEOFORGE_v2.12.35_mc1.21.4.jar       |CreativeCore                  |creativecore                  |2.12.35             |Manifest: NOSIGNATURE
+		dried_ghast-3.0.1-neoforge-1.21.4.jar             |dried_ghast                   |dried_ghast                   |1.0.0               |Manifest: NOSIGNATURE
+		framework-neoforge-1.21.4-0.10.4.jar              |Framework                     |framework                     |0.10.4              |Manifest: NOSIGNATURE
+		friendsandfoes-neoforge-4.0.17+mc1.21.4.jar       |Friends&Foes                  |friendsandfoes                |4.0.17              |Manifest: NOSIGNATURE
+		GlitchCore-neoforge-1.21.4-2.3.0.4.jar            |GlitchCore                    |glitchcore                    |2.3.0.4             |Manifest: NOSIGNATURE
+		goblintraders-neoforge-1.21.4-1.11.1.jar          |Goblin Traders                |goblintraders                 |1.11.1              |Manifest: NOSIGNATURE
+		jei-1.21.4-neoforge-20.0.0.4.jar                  |Just Enough Items             |jei                           |20.0.0.4            |Manifest: NOSIGNATURE
+		thedarkcolour.kffmod-5.10.0.jar                   |Kotlin For Forge              |kotlinforforge                |5.10.0              |Manifest: NOSIGNATURE
+		lithostitched-neoforge-1.21.4-1.4.5.jar           |Lithostitched                 |lithostitched                 |1.4.2               |Manifest: NOSIGNATURE
+		midnightlib-neoforge-1.9.1+1.21.5.jar             |MidnightLib                   |midnightlib                   |1.9.1               |Manifest: NOSIGNATURE
+		server-1.21.4-20241203.161809-srg.jar             |Minecraft                     |minecraft                     |1.21.4              |Manifest: NOSIGNATURE
+		neoforge-21.4.156-universal.jar                   |NeoForge                      |neoforge                      |21.4.156            |Manifest: NOSIGNATURE
+		noanimaltemptdelay-1.21.4-1.2.jar                 |No Animal Tempt Delay         |noanimaltemptdelay            |1.2                 |Manifest: NOSIGNATURE
+		Not Enough Recipe Book-NEOFORGE-0.4.2.1+1.21.4.jar|Not Enough Recipe Book        |nerb                          |0.4.2.1             |Manifest: NOSIGNATURE
+		OctoLib-NEOFORGE-0.5.0.1+1.21.4.jar               |OctoLib                       |octolib                       |0.5.0.1             |Manifest: NOSIGNATURE
+		PuzzlesLib-v21.4.14-1.21.4-NeoForge.jar           |Puzzles Lib                   |puzzleslib                    |21.4.14             |Manifest: NOSIGNATURE
+		ResourcefulLib-neoforge-1.21.4-3.4.5.jar          |Resourceful Lib               |resourcefullib                |3.4.5               |Manifest: NOSIGNATURE
+		Resourcify (1.21.4-neoforge)-1.7.5.jar            |Resourcify                    |resourcify                    |1.7.5               |Manifest: NOSIGNATURE
+		SereneSeasons-neoforge-1.21.4-10.4.0.6.jar        |Serene Seasons                |sereneseasons                 |10.4.0.6            |Manifest: NOSIGNATURE
+		sleeping-bags-neoforge-1.21.4-1.0.9.jar           |Sleeping Bags                 |sleeping_bags                 |1.21.4-1.0.9        |Manifest: NOSIGNATURE
+		supermartijn642corelib-1.1.18c-neoforge-mc1.21.4.j|SuperMartijn642's Core Lib    |supermartijn642corelib        |1.1.18+c            |Manifest: NOSIGNATURE
+		tectonic-neoforge-1.21.4-2.4.3.jar                |Tectonic                      |tectonic                      |2.4.3               |Manifest: NOSIGNATURE
+		watut-neoforge-1.21.4-1.2.5.jar                   |What Are They Up To           |watut                         |1.21.4-1.2.5        |Manifest: NOSIGNATURE
+		yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.ja|YetAnotherConfigLib           |yet_another_config_lib_v3     |3.7.1+1.21.4-neoforg|Manifest: NOSIGNATURE
+	Crash Report UUID: c2d794aa-81ee-460c-8836-38338bfdffc2
+	FML: 6.0.18
+	NeoForge: 21.4.156

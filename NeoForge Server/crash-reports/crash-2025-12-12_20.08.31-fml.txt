@@ -1,0 +1,80 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 2025-12-12 20:08:31
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: watut --
+Details:
+	Mod file: /C:/Users/Eduardito/Desktop/NeoForge Server/mods/watut-neoforge-1.21.4-1.2.5.jar
+	Failure message: Mod watut requires coroutil 1.21.0-1.3.7 or above
+		Currently, coroutil is not installed
+		
+	Mod version: 1.21.4-1.2.5
+	Mod issues URL: <No issues URL found>
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.4
+	Minecraft Version ID: 1.21.4
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 25.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 38204256 bytes (36 MiB) / 408944640 bytes (390 MiB) up to 4261412864 bytes (4064 MiB)
+	CPUs: 6
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 13
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 3.70
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 6
+	Graphics card #0 name: Intel(R) UHD Graphics 630
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 1024.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.101.2111
+	Graphics card #1 name: NVIDIA GeForce GTX 1050 Ti
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 4096.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.15.7688
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Virtual memory max (MiB): 22208.58
+	Virtual memory used (MiB): 18767.17
+	Swap memory total (MiB): 5952.94
+	Swap memory used (MiB): 426.66
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 6408.16, total: 113607.00
+	Space in storage for workdir (MiB): available: 6408.16, total: 113607.00
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: neoforgeserver
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-6.0.18.jar slf4jfixer PLUGINSERVICE 
+		loader-6.0.18.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-11.0.2.jar accesstransformer PLUGINSERVICE 
+		loader-6.0.18.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		kotlinforforge@5.10.0
+		javafml@6.0
+		lowcodefml@6.0
+		minecraft@6.0
+	Mod List: 
+		server-1.21.4-20241203.161809-srg.jar             |Minecraft                     |minecraft                     |1.21.4              |Manifest: NOSIGNATURE
+		neoforge-21.4.156-universal.jar                   |NeoForge                      |neoforge                      |21.4.156            |Manifest: NOSIGNATURE
