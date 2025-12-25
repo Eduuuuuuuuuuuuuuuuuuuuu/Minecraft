@@ -1,60 +1,90 @@
-[14dic2025 01:02:53.119] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, neoforgeserver, --fml.neoForgeVersion, 21.4.156, --fml.fmlVersion, 6.0.18, --fml.mcVersion, 1.21.4, --fml.neoFormVersion, 20241203.161809]
-[14dic2025 01:02:53.121] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.0.1+8-LTS-27
-[14dic2025 01:02:53.123] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 25.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[14dic2025 01:02:53.329] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is neoforgeserver
-[14dic2025 01:02:53.408] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Eduardito/Desktop/NeoForge%20Server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2385!/ Service=ModLauncher Env=SERVER
-[14dic2025 01:02:54.009] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.4-20241203.161809-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.4.156:server]
-[14dic2025 01:02:54.042] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.4.156-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.4.156\neoforge-21.4.156-universal.jar]], reader: mod manifest]
-[14dic2025 01:02:54.053] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-15.0.3-neoforge.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.071] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-17.0.144-neoforge.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.084] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.4-8.3.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.102] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "coroutil-neoforge-1.21.4-1.3.8.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.114] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreativeCore_NEOFORGE_v2.12.35_mc1.21.4.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.121] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dried_ghast-3.0.1-neoforge-1.21.4.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.127] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "framework-neoforge-1.21.4-0.10.4.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.135] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "friendsandfoes-neoforge-4.0.17+mc1.21.4.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.144] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.4-2.3.0.4.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.150] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "goblintraders-neoforge-1.21.4-1.11.1.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.167] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.4-neoforge-20.0.0.4.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.177] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.10.0-all.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.185] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithostitched-neoforge-1.21.4-1.4.5.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.205] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "midnightlib-neoforge-1.9.1+1.21.5.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "noanimaltemptdelay-1.21.4-1.2.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.221] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PuzzlesLib-v21.4.14-1.21.4-NeoForge.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.229] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ResourcefulLib-neoforge-1.21.4-3.4.5.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.237] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Resourcify (1.21.4-neoforge)-1.7.5.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.243] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SereneSeasons-neoforge-1.21.4-10.4.0.6.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.253] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sleeping-bags-neoforge-1.21.4-1.0.9.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.274] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642corelib-1.1.18c-neoforge-mc1.21.4.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.289] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tectonic-neoforge-1.21.4-2.4.3.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.308] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tombstone-neoforge-1.21.4-9.3.10.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.318] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "watut-neoforge-1.21.4-1.2.5.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.323] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar" [locator: {mods folder locator at C:\Users\Eduardito\Desktop\NeoForge Server\mods}, reader: mod manifest]
-[14dic2025 01:02:54.919] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 23 dependencies adding them to mods collection
-[14dic2025 01:02:54.920] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.4.156-universal.jar, locator: jarinjar, reader: mod manifest]
-[14dic2025 01:02:54.921] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yabn-1.0.3.jar" [parent: ResourcefulLib-neoforge-1.21.4-3.4.5.jar, locator: jarinjar]
-[14dic2025 01:02:54.922] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json-0.2.1.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
-[14dic2025 01:02:54.924] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.10.2.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[14dic2025 01:02:54.924] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-io-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
-[14dic2025 01:02:54.924] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.4.156.jar" [parent: neoforge-21.4.156-universal.jar, locator: jarinjar, reader: mod manifest]
-[14dic2025 01:02:54.924] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[14dic2025 01:02:54.924] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[14dic2025 01:02:54.924] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "thedarkcolour.kfflang-5.10.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar, reader: mod manifest]
-[14dic2025 01:02:54.925] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-metadata-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
-[14dic2025 01:02:54.925] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-webp-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
-[14dic2025 01:02:54.925] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "thedarkcolour.kfflib-5.10.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar, reader: mod manifest]
-[14dic2025 01:02:54.926] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.9.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[14dic2025 01:02:54.926] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "thedarkcolour.kffmod-5.10.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar, reader: mod manifest]
-[14dic2025 01:02:54.926] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.2.1.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
-[14dic2025 01:02:54.926] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[14dic2025 01:02:54.926] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[14dic2025 01:02:54.926] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-image-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
-[14dic2025 01:02:54.926] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "bytecodecs-1.1.2.jar" [parent: ResourcefulLib-neoforge-1.21.4-3.4.5.jar, locator: jarinjar]
-[14dic2025 01:02:54.926] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.9.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[14dic2025 01:02:54.926] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-lang-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
-[14dic2025 01:02:54.926] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-core-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
-[14dic2025 01:02:54.926] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.10.2.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
-[14dic2025 01:02:54.928] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[25dic2025 12:08:53.029] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, neoforgeserver, --fml.neoForgeVersion, 21.4.156, --fml.fmlVersion, 6.0.18, --fml.mcVersion, 1.21.4, --fml.neoFormVersion, 20241203.161809]
+[25dic2025 12:08:53.032] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.0.1+8-LTS-27
+[25dic2025 12:08:53.034] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 25.0.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[25dic2025 12:08:53.316] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is neoforgeserver
+[25dic2025 12:08:53.376] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Seba/Desktop/Minecraft/NeoForge%20Server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2385!/ Service=ModLauncher Env=SERVER
+[25dic2025 12:08:53.730] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.4-20241203.161809-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.4.156:server]
+[25dic2025 12:08:53.761] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.4.156-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.4.156\neoforge-21.4.156-universal.jar]], reader: mod manifest]
+[25dic2025 12:08:53.773] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "spongeneo-lang.jar" [locator: spongeneo, reader: mod manifest]
+[25dic2025 12:08:53.959] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spongeneo-mod.jar" [locator: spongeneo, reader: mod manifest]
+[25dic2025 12:08:54.023] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "LuckPerms-Sponge-5.4.152.jar" [locator: plugins directory, reader: sponge manifest]
+[25dic2025 12:08:54.043] [main/WARN] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Skipping jar. File C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods\plugins\serial-key.jar is for an old version of Minecraft Forge and cannot be loaded
+[25dic2025 12:08:54.052] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SkinsRestorer.jar" [locator: plugins directory, reader: sponge manifest]
+[25dic2025 12:08:54.062] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-15.0.3-neoforge.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.069] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-17.0.144-neoforge.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.077] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.4-8.3.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.086] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "coroutil-neoforge-1.21.4-1.3.8.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.094] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreativeCore_NEOFORGE_v2.12.35_mc1.21.4.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.145] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CustomSkinLoader_ForgeV3-14.26.1.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.171] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dried_ghast-3.0.1-neoforge-1.21.4.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.191] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "framework-neoforge-1.21.4-0.10.4.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.202] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "friendsandfoes-neoforge-4.0.17+mc1.21.4.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.4-2.3.0.4.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "goblintraders-neoforge-1.21.4-1.11.1.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.233] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.4-neoforge-20.0.0.4.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.238] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.10.0-all.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.244] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithostitched-neoforge-1.21.4-1.4.5.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.250] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "midnightlib-neoforge-1.9.1+1.21.5.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.257] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "noanimaltemptdelay-1.21.4-1.2.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.264] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PuzzlesLib-v21.4.14-1.21.4-NeoForge.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.271] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ResourcefulLib-neoforge-1.21.4-3.4.5.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.278] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Resourcify (1.21.4-neoforge)-1.7.5.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.285] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SereneSeasons-neoforge-1.21.4-10.4.0.6.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.291] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sleeping-bags-neoforge-1.21.4-1.0.9.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.298] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642corelib-1.1.18c-neoforge-mc1.21.4.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.304] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tectonic-neoforge-1.21.4-2.4.3.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.311] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tombstone-neoforge-1.21.4-9.3.10.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.318] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "watut-neoforge-1.21.4-1.2.5.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.324] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar" [locator: {mods folder locator at C:\Users\Seba\Desktop\Minecraft\NeoForge Server\mods}, reader: mod manifest]
+[25dic2025 12:08:54.337] [main/INFO] [org.spongepowered.libs.LibraryManager/]: Scanning and verifying libraries in 'C:\Users\Seba\Desktop\Minecraft\NeoForge Server\libraries'. Please wait, this may take a moment...
+[25dic2025 12:08:54.386] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "javax.inject-1.jar" [locator: spongeneo]
+[25dic2025 12:08:54.392] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-legacy-4.18.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.398] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-serializer-configurate4-4.18.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.404] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-api-1.3.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.410] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-gson-4.18.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.416] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-plain-4.18.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.421] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "option-1.1.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.426] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-key-4.18.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.433] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-extra-guice-4.2.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.438] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "guice-5.0.1.jar" [locator: spongeneo]
+[25dic2025 12:08:54.448] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-core-4.2.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.453] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "aopalliance-1.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.460] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-gson-4.2.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.466] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-minimessage-4.18.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.477] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-yaml-4.2.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.483] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "event-impl-gen-annotations-8.0.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.488] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "geantyref-1.3.16.jar" [locator: spongeneo]
+[25dic2025 12:08:54.494] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "examination-string-1.3.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.499] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-text-serializer-json-4.18.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.504] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "math-2.0.1.jar" [locator: spongeneo]
+[25dic2025 12:08:54.513] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "configurate-hocon-4.2.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.518] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "adventure-api-4.18.0.jar" [locator: spongeneo]
+[25dic2025 12:08:54.524] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "caffeine-3.1.8.jar" [locator: spongeneo]
+[25dic2025 12:08:54.948] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 23 dependencies adding them to mods collection
+[25dic2025 12:08:54.948] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.4.156-universal.jar, locator: jarinjar, reader: mod manifest]
+[25dic2025 12:08:54.949] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "yabn-1.0.3.jar" [parent: ResourcefulLib-neoforge-1.21.4-3.4.5.jar, locator: jarinjar]
+[25dic2025 12:08:54.950] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "json-0.2.1.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
+[25dic2025 12:08:54.950] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.10.2.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[25dic2025 12:08:54.951] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-io-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
+[25dic2025 12:08:54.951] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.4.156.jar" [parent: neoforge-21.4.156-universal.jar, locator: jarinjar, reader: mod manifest]
+[25dic2025 12:08:54.952] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[25dic2025 12:08:54.952] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[25dic2025 12:08:54.953] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "thedarkcolour.kfflang-5.10.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar, reader: mod manifest]
+[25dic2025 12:08:54.953] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-metadata-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
+[25dic2025 12:08:54.954] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-webp-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
+[25dic2025 12:08:54.954] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "thedarkcolour.kfflib-5.10.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar, reader: mod manifest]
+[25dic2025 12:08:54.955] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.9.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[25dic2025 12:08:54.955] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "thedarkcolour.kffmod-5.10.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar, reader: mod manifest]
+[25dic2025 12:08:54.956] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gson-0.2.1.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
+[25dic2025 12:08:54.956] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[25dic2025 12:08:54.957] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.2.20.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[25dic2025 12:08:54.957] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-image-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
+[25dic2025 12:08:54.958] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "bytecodecs-1.1.2.jar" [parent: ResourcefulLib-neoforge-1.21.4-3.4.5.jar, locator: jarinjar]
+[25dic2025 12:08:54.958] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.9.0.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[25dic2025 12:08:54.958] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "common-lang-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
+[25dic2025 12:08:54.959] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "imageio-core-3.12.0.jar" [parent: yet_another_config_lib_v3-3.7.1+1.21.4-neoforge.jar, locator: jarinjar]
+[25dic2025 12:08:54.959] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.10.2.jar" [parent: kotlinforforge-5.10.0-all.jar, locator: jarinjar]
+[25dic2025 12:08:54.962] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -64,6 +94,7 @@
 		Corail Tombstone 9.3.10 (tombstone)
 		CoroUtil 1.21.4-1.3.8 (coroutil)
 		CreativeCore 2.12.35 (creativecore)
+		CustomSkinLoader 14.26.1 (customskinloader)
 		dried_ghast 1.0.0 (dried_ghast)
 		Framework 0.10.4 (framework)
 		Friends&Foes 4.0.17 (friendsandfoes)
@@ -72,6 +103,7 @@
 		Just Enough Items 20.0.0.4 (jei)
 		Kotlin For Forge 5.10.0 (kotlinforforge)
 		Lithostitched 1.4.2 (lithostitched)
+		LuckPerms 5.4.152 (luckperms)
 		MidnightLib 1.9.1 (midnightlib)
 		Minecraft 1.21.4 (minecraft)
 		NeoForge 21.4.156 (neoforge)
@@ -80,48 +112,81 @@
 		Resourceful Lib 3.4.5 (resourcefullib)
 		Resourcify 1.7.5 (resourcify)
 		Serene Seasons 10.4.0.6 (sereneseasons)
+		SkinsRestorer 15.0.0 (skinsrestorer)
 		Sleeping Bags 1.21.4-1.0.9 (sleeping_bags)
+		SpongeNeo 1.21.4-21.4.137-14.0.0-RC2464 (spongeneo)
 		SuperMartijn642's Core Lib 1.1.18+c (supermartijn642corelib)
 		Tectonic 2.4.3 (tectonic)
 		What Are They Up To 1.21.4-1.2.5 (watut)
 		YetAnotherConfigLib 3.7.1+1.21.4-neoforge (yet_another_config_lib_v3)
-[14dic2025 01:02:56.035] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[14dic2025 01:02:56.119] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'neoforgeserver' with arguments []
-[14dic2025 01:02:56.217] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.218] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.229] [main/WARN] [mixin/]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.229] [main/WARN] [mixin/]: Reference map 'lithostitched.refmap.json' for lithostitched.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.233] [main/WARN] [mixin/]: Reference map 'goblintraders.refmap.json' for goblintraders.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.234] [main/WARN] [mixin/]: Reference map 'mixins.tombstone.refmap.json' for tombstone.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.235] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.235] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.236] [main/WARN] [mixin/]: Reference map 'sereneseasons.refmap.json' for sereneseasons.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.237] [main/WARN] [mixin/]: Reference map 'sereneseasons.refmap.json' for sereneseasons.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.245] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.262] [main/WARN] [mixin/]: Reference map 'watut.refmap.json' for watut.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.268] [main/WARN] [mixin/]: Reference map 'friendsandfoes.refmap.json' for friendsandfoes-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.279] [main/WARN] [mixin/]: Reference map 'friendsandfoes.refmap.json' for friendsandfoes-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.280] [main/WARN] [mixin/]: Reference map 'tectonic.refmap.json' for tectonic.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:56.282] [main/WARN] [mixin/]: Reference map 'tectonic.refmap.json' for tectonic.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[14dic2025 01:02:58.730] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[14dic2025 01:03:04.119] [main/WARN] [mixin/]: Injection warning: LVT in net/minecraft/world/level/BaseSpawner::serverTick(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)V has incompatible changes at opcode 65 in callback collective_neoforge.mixins.json:BaseSpawnerMixin from mod collective->@Inject::BaseSpawner_serverTick(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;ZLnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/SpawnData;ILnet/minecraft/nbt/CompoundTag;Ljava/util/Optional;Lnet/minecraft/nbt/ListTag;IDDDLnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;ILnet/minecraft/world/entity/Mob;)V.
+[25dic2025 12:08:57.269] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25dic2025 12:08:57.278] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[25dic2025 12:08:57.325] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'neoforgeserver' with arguments []
+[25dic2025 12:08:57.396] [main/WARN] [mixin/]: Reference map 'lithostitched.refmap.json' for lithostitched.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.397] [main/WARN] [mixin/]: Reference map 'goblintraders.refmap.json' for goblintraders.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.398] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.399] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.399] [main/WARN] [mixin/]: Reference map 'sereneseasons.refmap.json' for sereneseasons.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.400] [main/WARN] [mixin/]: Reference map 'sereneseasons.refmap.json' for sereneseasons.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.401] [main/WARN] [mixin/]: Reference map 'friendsandfoes.refmap.json' for friendsandfoes-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.402] [main/WARN] [mixin/]: Reference map 'friendsandfoes.refmap.json' for friendsandfoes-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.402] [main/WARN] [mixin/]: Reference map 'tectonic.refmap.json' for tectonic.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.403] [main/WARN] [mixin/]: Reference map 'tectonic.refmap.json' for tectonic.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.403] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.404] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.406] [main/WARN] [mixin/]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.409] [main/WARN] [mixin/]: Reference map 'mixins.tombstone.refmap.json' for tombstone.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.410] [main/WARN] [mixin/]: Reference map 'watut.refmap.json' for watut.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:57.412] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[25dic2025 12:08:59.407] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[25dic2025 12:09:10.994] [main/WARN] [mixin/]: Injection warning: LVT in net/minecraft/world/level/BaseSpawner::serverTick(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)V has incompatible changes at opcode 65 in callback collective_neoforge.mixins.json:BaseSpawnerMixin from mod collective->@Inject::BaseSpawner_serverTick(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;ZLnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/SpawnData;ILnet/minecraft/nbt/CompoundTag;Ljava/util/Optional;Lnet/minecraft/nbt/ListTag;IDDDLnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;ILnet/minecraft/world/entity/Mob;)V.
  Expected: [Z, Lnet/minecraft/util/RandomSource;, Lnet/minecraft/world/level/SpawnData;, I, Lnet/minecraft/nbt/CompoundTag;, Ljava/util/Optional;, Lnet/minecraft/nbt/ListTag;, I, D, D, D, Lnet/minecraft/core/BlockPos;, Lnet/minecraft/world/entity/Entity;, I, Lnet/minecraft/world/entity/Mob;]
     Found: [Z, Lnet/minecraft/util/RandomSource;, Lnet/minecraft/world/level/SpawnData;, I]
 Available: [Z, Lnet/minecraft/util/RandomSource;, Lnet/minecraft/world/level/SpawnData;, I]
-[14dic2025 01:03:06.372] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
-[14dic2025 01:03:06.389] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.156, for MC 1.21.4
-[14dic2025 01:03:06.542] [modloading-worker-0/INFO] [coroutil/]: neo forge loader environment detected
-[14dic2025 01:03:06.611] [modloading-worker-0/INFO] [glitchcore/]: Registered synced config with path sereneseasons/fertility.toml
-[14dic2025 01:03:06.621] [modloading-worker-0/INFO] [glitchcore/]: Registered synced config with path sereneseasons/seasons.toml
-[14dic2025 01:03:06.658] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from 'C:\Users\Eduardito\Desktop\NeoForge Server\config\yacl.json5'
-[14dic2025 01:03:06.715] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
-[14dic2025 01:03:06.741] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing FriendsAndFoesConfig from 'config\friendsandfoes.json'
-[14dic2025 01:03:06.848] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[14dic2025 01:03:08.394] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/api/mod_update/neoforge/goblintraders
-[14dic2025 01:03:08.432] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14dic2025 01:03:08.662] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Eduardito/Desktop/NeoForge%20Server/libraries/net/minecraft/server/1.21.4-20241203.161809/server-1.21.4-20241203.161809-srg.jar%23166!/assets/.mcassetsroot' uses unexpected schema
-[14dic2025 01:03:08.667] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Eduardito/Desktop/NeoForge%20Server/libraries/net/minecraft/server/1.21.4-20241203.161809/server-1.21.4-20241203.161809-srg.jar%23166!/data/.mcassetsroot' uses unexpected schema
-[14dic2025 01:03:09.052] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+[25dic2025 12:09:13.900] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing FriendsAndFoesConfig from 'config\friendsandfoes.json'
+[25dic2025 12:09:13.919] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.156, for MC 1.21.4
+[25dic2025 12:09:14.120] [modloading-worker-0/INFO] [glitchcore/]: Registered synced config with path sereneseasons/fertility.toml
+[25dic2025 12:09:14.132] [modloading-worker-0/INFO] [glitchcore/]: Registered synced config with path sereneseasons/seasons.toml
+[25dic2025 12:09:14.281] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[25dic2025 12:09:14.279] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
+[25dic2025 12:09:14.295] [modloading-worker-0/INFO] [coroutil/]: neo forge loader environment detected
+[25dic2025 12:09:14.313] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from 'C:\Users\Seba\Desktop\Minecraft\NeoForge Server\config\yacl.json5'
+[25dic2025 12:09:14.358] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[25dic2025 12:09:14.831] [modloading-sync-worker/INFO] [luckperms/]:         __    
+[25dic2025 12:09:14.831] [modloading-sync-worker/INFO] [luckperms/]:   |    |__)   LuckPerms v5.4.152
+[25dic2025 12:09:14.832] [modloading-sync-worker/INFO] [luckperms/]:   |___ |      Running on Sponge - SpongeNeo
+[25dic2025 12:09:14.832] [modloading-sync-worker/INFO] [luckperms/]: 
+[25dic2025 12:09:14.833] [modloading-sync-worker/INFO] [luckperms/]: Loading configuration...
+[25dic2025 12:09:15.113] [modloading-sync-worker/INFO] [luckperms/]: Loading storage provider... [H2]
+[25dic2025 12:09:15.607] [modloading-sync-worker/INFO] [luckperms/]: Loading internal permission managers...
+[25dic2025 12:09:15.676] [modloading-sync-worker/INFO] [luckperms/]: Performing initial data load...
+[25dic2025 12:09:15.786] [modloading-sync-worker/INFO] [luckperms/]: Successfully enabled. (took 1021ms)
+[25dic2025 12:09:15.991] [modloading-sync-worker/INFO] [skinsrestorer/]: 
+Plugin SkinsRestorer is using bStats Metrics  but currently has data sending disabled.
+To change the enabled/disabled state of any bStats use in a plugin, visit the Sponge config!
+[25dic2025 12:09:16.388] [modloading-sync-worker/INFO] [skinsrestorer/]: Dear server admin, in order to help us decide whether we should continue supporting Sponge for SkinsRestorer, consider enabling metrics by executing /sponge metrics skinsrestorer enable[0;39m
+[25dic2025 12:09:16.495] [modloading-sync-worker/INFO] [sponge/]: Registered service [PaginationService] to plugin 'sponge'.
+[25dic2025 12:09:17.291] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [32;1m----------------------------------------------[0;39m
+[25dic2025 12:09:17.291] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [32;1m    +==================+[0;39m
+[25dic2025 12:09:17.292] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [32;1m    |   SkinsRestorer  |[0;39m
+[25dic2025 12:09:17.293] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [32;1m    |------------------|[0;39m
+[25dic2025 12:09:17.293] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[25dic2025 12:09:17.294] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [32;1m    +==================+[0;39m
+[25dic2025 12:09:17.294] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [32;1m----------------------------------------------[0;39m
+[25dic2025 12:09:17.295] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [36;1m    Current version: [31;1m15.0.0[0;39m
+[25dic2025 12:09:17.295] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [36;1m    Commit: [32;1m75ced93[0;39m
+[25dic2025 12:09:17.296] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [36;1m    New version: [31;1m15.9.1[0;39m
+[25dic2025 12:09:17.296] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [33;1m    A new version is available! Download it at:[0;39m
+[25dic2025 12:09:17.296] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [33;1m    https://github.com/SkinsRestorer/SkinsRestorer/releases/download/15.9.1/SkinsRestorer.jar[0;39m
+[25dic2025 12:09:17.297] [Sponge-AsyncScheduler-4/INFO] [skinsrestorer/]: [32;1m----------------------------------------------[0;39m
+[25dic2025 12:09:18.495] [modloading-worker-0/INFO] [spongeneo/]: SpongeNeo v1.21.4-21.4.137-14.0.0-RC2464 initialized
+[25dic2025 12:09:18.540] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/api/mod_update/neoforge/goblintraders
+[25dic2025 12:09:18.814] [main/WARN] [net.neoforged.neoforge.server.loading.ServerModLoader/LOADING]: Mods loaded with 1 issues
+[25dic2025 12:09:18.814] [main/WARN] [net.neoforged.neoforge.server.loading.ServerModLoader/LOADING]: fml.modloadingissue.brokenfile.oldforge [[]]
+[25dic2025 12:09:18.859] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[25dic2025 12:09:19.041] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Seba/Desktop/Minecraft/NeoForge%20Server/libraries/net/minecraft/server/1.21.4-20241203.161809/server-1.21.4-20241203.161809-srg.jar%23169!/assets/.mcassetsroot' uses unexpected schema
+[25dic2025 12:09:19.042] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Seba/Desktop/Minecraft/NeoForge%20Server/libraries/net/minecraft/server/1.21.4-20241203.161809/server-1.21.4-20241203.161809-srg.jar%23169!/data/.mcassetsroot' uses unexpected schema
+[25dic2025 12:09:19.185] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
 	at MC-BOOTSTRAP/com.google.gson@2.11.0/com.google.gson.Gson.fromJson(Gson.java:1372) ~[gson-2.11.0.jar%23103!/:?]
@@ -139,14 +204,14 @@ See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-
 	at MC-BOOTSTRAP/com.google.gson@2.11.0/com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:154) ~[gson-2.11.0.jar%23103!/:?]
 	at MC-BOOTSTRAP/com.google.gson@2.11.0/com.google.gson.Gson.fromJson(Gson.java:1361) ~[gson-2.11.0.jar%23103!/:?]
 	... 6 more
-[14dic2025 01:03:09.052] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sleeping_bags] Starting version check at https://update.maxhenkel.de/neoforge/sleeping_bags
-[14dic2025 01:03:10.014] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sleeping_bags] Found status: BETA Current: 1.21.4-1.0.9 Target: 1.21.4-1.0.9
-[14dic2025 01:03:10.014] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/neoforge-update.json
-[14dic2025 01:03:10.075] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.3.10 Target: null
-[14dic2025 01:03:10.080] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[14dic2025 01:03:10.093] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 21.4.14 Target: null
-[14dic2025 01:03:10.093] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[14dic2025 01:03:10.153] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+[25dic2025 12:09:19.188] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sleeping_bags] Starting version check at https://update.maxhenkel.de/neoforge/sleeping_bags
+[25dic2025 12:09:20.136] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [sleeping_bags] Found status: BETA Current: 1.21.4-1.0.9 Target: 1.21.4-1.0.9
+[25dic2025 12:09:20.140] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/neoforge-update.json
+[25dic2025 12:09:20.190] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.3.10 Target: null
+[25dic2025 12:09:20.190] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[25dic2025 12:09:20.202] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 21.4.14 Target: null
+[25dic2025 12:09:20.203] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[25dic2025 12:09:20.371] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
 	at MC-BOOTSTRAP/com.google.gson@2.11.0/com.google.gson.Gson.fromJson(Gson.java:1372) ~[gson-2.11.0.jar%23103!/:?]
@@ -164,42 +229,56 @@ See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-
 	at MC-BOOTSTRAP/com.google.gson@2.11.0/com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:154) ~[gson-2.11.0.jar%23103!/:?]
 	at MC-BOOTSTRAP/com.google.gson@2.11.0/com.google.gson.Gson.fromJson(Gson.java:1361) ~[gson-2.11.0.jar%23103!/:?]
 	... 6 more
-[14dic2025 01:03:11.439] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1535 recipes
-[14dic2025 01:03:11.456] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1751 advancements
-[14dic2025 01:03:11.462] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[14dic2025 01:03:11.462] [main/INFO] [friendsandfoes/]: Loaded 1 moobloom variants
-[14dic2025 01:03:11.464] [main/INFO] [friendsandfoes/]: Loaded 32 entity animations
-[14dic2025 01:03:12.455] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.4
-[14dic2025 01:03:12.462] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14dic2025 01:03:12.466] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[14dic2025 01:03:12.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14dic2025 01:03:12.538] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[14dic2025 01:03:12.593] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[14dic2025 01:03:12.671] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14dic2025 01:03:12.671] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[14dic2025 01:03:12.671] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14dic2025 01:03:12.671] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[14dic2025 01:03:12.751] [Server thread/INFO] [Framework/]: Loading server configs...
-[14dic2025 01:03:12.759] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14dic2025 01:03:13.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[14dic2025 01:03:15.696] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14dic2025 01:03:15.707] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14dic2025 01:03:15.743] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14dic2025 01:03:15.746] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14dic2025 01:03:15.748] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14dic2025 01:03:15.862] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2121 ms
-[14dic2025 01:03:15.863] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.170s)! For help, type "help"
-[14dic2025 01:03:15.907] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[14dic2025 01:03:23.353] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: soybackano[/[::1]:62162] logged in with entity id 193 at (-2884.7120063413586, 71.9375, -1845.6715985765513)
-[14dic2025 01:03:23.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: soybackano joined the game
-[14dic2025 01:03:23.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: soybackano has completed the challenge [Mysterious Gift]
-[14dic2025 01:03:43.225] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 21004ms or 420 ticks behind
-[14dic2025 01:03:49.799] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: soybackano moved too quickly! 0.0,-1634.6570654846194,0.0
-[14dic2025 01:03:49.954] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pene123[/127.91.162.70:62167] logged in with entity id 368 at (-1.3350665513632938, -26.0, -200.53640462239053)
-[14dic2025 01:03:49.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pene123 joined the game
-[14dic2025 01:04:03.141] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pene123 lost connection: Disconnected
-[14dic2025 01:04:03.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pene123 left the game
-[14dic2025 01:04:11.322] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13101ms or 262 ticks behind
-[14dic2025 01:04:18.144] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: soybackano lost connection: Disconnected
-[14dic2025 01:04:18.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: soybackano left the game
-[14dic2025 01:05:18.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[25dic2025 12:09:22.296] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1535 recipes
+[25dic2025 12:09:22.329] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1751 advancements
+[25dic2025 12:09:22.339] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[25dic2025 12:09:22.340] [main/INFO] [friendsandfoes/]: Loaded 1 moobloom variants
+[25dic2025 12:09:22.342] [main/INFO] [friendsandfoes/]: Loaded 32 entity animations
+[25dic2025 12:09:23.451] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.4
+[25dic2025 12:09:23.452] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25dic2025 12:09:23.455] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25dic2025 12:09:23.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25dic2025 12:09:23.538] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25dic2025 12:09:23.601] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[25dic2025 12:09:23.648] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25dic2025 12:09:23.648] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25dic2025 12:09:23.650] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25dic2025 12:09:23.650] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25dic2025 12:09:23.732] [Server thread/INFO] [sponge/]: Registered service [BanService] to plugin 'sponge'.
+[25dic2025 12:09:23.737] [Server thread/INFO] [sponge/]: Registered service [ContextService] to plugin 'luckperms'.
+[25dic2025 12:09:23.739] [Server thread/INFO] [sponge/]: Registered service [PermissionService] to plugin 'luckperms'.
+[25dic2025 12:09:23.741] [Server thread/INFO] [sponge/]: Registered service [WhitelistService] to plugin 'sponge'.
+[25dic2025 12:09:23.779] [Server thread/INFO] [Framework/]: Loading server configs...
+[25dic2025 12:09:23.786] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25dic2025 12:09:24.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:the_nether'
+[25dic2025 12:09:24.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loading world 'minecraft:the_end'
+[25dic2025 12:09:24.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25dic2025 12:09:29.884] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:29.950] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:29.963] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:29.964] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:29.967] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:29.967] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:29.967] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:29.968] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:29.969] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:29.969] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:29.969] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:30.096] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5149 ms
+[25dic2025 12:09:30.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_nether
+[25dic2025 12:09:30.141] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:30.225] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 127 ms
+[25dic2025 12:09:30.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_end
+[25dic2025 12:09:30.254] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25dic2025 12:09:30.312] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 85 ms
+[25dic2025 12:09:30.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.642s)! For help, type "help"
+[25dic2025 12:09:30.366] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[25dic2025 12:09:30.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[25dic2025 12:09:30.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: git add .<--[HERE]
+[25dic2025 12:09:30.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[25dic2025 12:09:30.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: git add .<--[HERE]
+[25dic2025 12:09:43.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[25dic2025 12:09:43.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: git add .<--[HERE]
+[25dic2025 12:10:00.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[25dic2025 12:10:00.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: git commit -m "backup"<--[HERE]
+[25dic2025 12:10:30.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing

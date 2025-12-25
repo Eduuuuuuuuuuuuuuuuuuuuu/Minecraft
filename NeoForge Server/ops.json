@@ -1,11 +1,5 @@
 [
   {
-    "uuid": "05f681ab-8f5b-360e-842a-d8c6819254bd",
-    "name": "sotato",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
     "uuid": "60483394-c31c-4c7c-8b50-dbb4133dcc7a",
     "name": "soybackano",
     "level": 4,
@@ -14,6 +8,18 @@
   {
     "uuid": "a24fb9ca-72ce-364f-9ab8-0ea2ffff5504",
     "name": "soybackano",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ba67ed42-d49a-33d1-9729-343e00e13652",
+    "name": "Coco_GW25",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c3a4cadd-4c47-30fb-99ea-af9b69b1abb0",
+    "name": "setnamaid",
     "level": 4,
     "bypassesPlayerLimit": false
   }
