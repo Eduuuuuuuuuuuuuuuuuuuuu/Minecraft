@@ -340,11 +340,13 @@
       "minecraft:vindicator": "2025-12-19 00:19:36 -0300",
       "minecraft:breeze": "2025-12-21 22:54:12 -0300",
       "minecraft:stray": "2025-12-21 22:51:36 -0300",
+      "minecraft:enderman": "2025-12-26 00:39:49 -0300",
       "minecraft:magma_cube": "2025-12-18 18:15:28 -0300",
       "minecraft:spider": "2025-12-17 00:26:13 -0300",
       "minecraft:piglin_brute": "2025-12-18 18:06:09 -0300",
       "minecraft:zombie": "2025-12-15 18:26:29 -0300",
       "minecraft:creeper": "2025-12-16 15:14:56 -0300",
+      "minecraft:wither": "2025-12-25 17:18:42 -0300",
       "minecraft:zombie_villager": "2025-12-16 19:22:29 -0300"
     },
     "done": false
@@ -4462,6 +4464,90 @@
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_diamond_block": "2025-12-21 23:08:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2025-12-25 16:57:08 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2025-12-25 16:57:08 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_cut_sandstone": "2025-12-25 16:57:08 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2025-12-25 16:58:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_red_tulip": {
+    "criteria": {
+      "has_red_tulip": "2025-12-25 16:59:42 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2025-12-25 16:59:42 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-12-25 16:59:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-12-25 16:59:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-12-25 16:59:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2025-12-25 17:04:59 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2025-12-25 17:04:59 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/neighborhood_brawl": {
+    "criteria": {
+      "coded_trigger": "2025-12-25 17:10:19 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/discreet_search": {
+    "criteria": {
+      "coded_trigger": "2025-12-25 17:17:56 -0300"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_undead": {
+    "criteria": {
+      "coded_trigger": "2025-12-25 17:18:42 -0300"
     },
     "done": true
   },
